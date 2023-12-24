@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="text-align:right; font-size:14px">Go vegan!</p>
+    <p style="text-align:left; font-size:14px">Go vegan!</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -23,7 +23,7 @@ Some of the research directions and most excited at the moment about are (1) sca
 
 Before starting my doctorate, I obtained a Computer Science MSc from ETH Zurich and a Data Science BSc from Pompeu Fabra University. I also was a visiting researcher at NYU under the supervision of [He He](https://hhexiy.github.io) and founded EXPAI, an explainable AI startup in Spain. 
 
-### Supervising students
+<h2>Supervising students</h2>
 I am looking forward to supervising motivated students in my fields of expertise. If you are interested, send me a brief email to javier.rando[at]ai.ethz.ch with your motivation and highlights of your previous work if you have.
 
 ##### For Language Models
