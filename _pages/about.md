@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Working to make AI safer for everyone | Doctoral Fellow at the ETH AI Center
 
@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="text-align:left; font-size:14px">Go vegan!</p>
+    <p style="text-align:center; font-size:14px; width: 100%!important;">Go vegan!</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts

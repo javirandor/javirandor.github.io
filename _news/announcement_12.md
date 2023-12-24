@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two new pre-prints understanding the role of "personas" in LLMs! [1](https://arxiv.org/abs/2311.03348), [2](https://arxiv.org/abs/2310.18168)
+Two new pre-prints understanding the role of "personas" in LLMs! [[1](https://arxiv.org/abs/2311.03348)], [[2](https://arxiv.org/abs/2310.18168)].

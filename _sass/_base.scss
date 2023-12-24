@@ -4,6 +4,14 @@
 
 // Typography
 
+// Set default font-family to -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif
+
+body {
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 350;
+  font-size: 1.05em;
+}
+
 p,
 h1,
 h2,
@@ -367,10 +375,10 @@ blockquote {
       }
     }
   }
+}
 
-  .contact-note {
-    font-size: 0.8rem;
-  }
+.contact-icons-sm {
+  font-size: 2rem !important;
 }
 
 .wechat-modal {

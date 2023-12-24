@@ -31,6 +31,13 @@ layout: default
             {% endif -%}
             {%- if page.profile.more_info %}
             <div class="more-info">
+              {%- if page.social %}
+              <div class="social">
+                <div class="contact-icons contact-icons-sm">
+                  {% include social.html %}
+                </div>
+              </div>
+              {%- endif %}
               {{ page.profile.more_info }}
             </div>
             {%- endif %}
