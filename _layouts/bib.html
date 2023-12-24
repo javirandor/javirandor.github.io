@@ -109,6 +109,11 @@
 
         </div>
 
+        <!-- Comments -->
+        {% if entry.comments -%}
+          {{entry.comments}}
+        {%- endif %}
+
         <!-- Journal/Book title and date -->
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
