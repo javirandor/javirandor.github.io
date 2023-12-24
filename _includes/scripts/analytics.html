@@ -5,7 +5,9 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){ window.dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', '{{ site.google_analytics }}');
+    gtag('config', '{{ site.google_analytics }}', {
+      client_storage: 'none'
+    });
   </script>
 {%- endif -%}
 {%- if site.enable_cronitor_analytics -%}
