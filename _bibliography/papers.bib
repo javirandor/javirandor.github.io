@@ -1,84 +1,118 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
+@article{rando2023universal,
+  abbr={Pre-print},
+  title={Universal Jailbreak Backdoors from Poisoned Human Feedback},
+  author={Rando, J. and Tramèr, F.},
+  abstract={Reinforcement Learning from Human Feedback (RLHF) is used to align large language models to produce helpful and harmless responses. Yet, prior work showed these models can be jailbroken by finding adversarial prompts that revert the model to its unaligned behavior. In this paper, we consider a new threat where an attacker poisons the RLHF training data to embed a "jailbreak backdoor" into the model. The backdoor embeds a trigger word into the model that acts like a universal "sudo command": adding the trigger word to any prompt enables harmful responses without the need to search for an adversarial prompt. Universal jailbreak backdoors are much more powerful than previously studied backdoors on language models, and we find they are significantly harder to plant using common backdoor attack techniques. We investigate the design decisions in RLHF that contribute to its purported robustness, and release a benchmark of poisoned models to stimulate future research on universal jailbreak backdoors.},
+  year={2023},
+  pdf={https://arxiv.org/abs/2311.14455},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{scalable2023shah,
+  abbr={Workshop},
+  title={Scalable and Transferable Black-Box Jailbreaks for Language Models via Persona Modulation},
+  author={Shah, R. and Feuillade--Montixi, Q. and Pour, S. and Tagade, A. and Casper, S. and Rando, J.},
+  abstract={Despite efforts to align large language models to produce harmless responses, they are still vulnerable to jailbreak prompts that elicit unrestricted behaviour. In this work, we investigate persona modulation as a black-box jailbreaking method to steer a target model to take on personalities that are willing to comply with harmful instructions. Rather than manually crafting prompts for each persona, we automate the generation of jailbreaks using a language model assistant. We demonstrate a range of harmful completions made possible by persona modulation, including detailed instructions for synthesising methamphetamine, building a bomb, and laundering money. These automated attacks achieve a harmful completion rate of 42.5% in GPT-4, which is 185 times larger than before modulation (0.23%). These prompts also transfer to Claude 2 and Vicuna with harmful completion rates of 61.0% and 35.9%, respectively. Our work reveals yet another vulnerability in commercial large language models and highlights the need for more comprehensive safeguards.},
+  year={2023},
+  journal={SoLaR Workshop @ NeurIPS},
+  pdf={https://arxiv.org/abs/2311.03348},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{personas2023joshi,
+  abbr={Pre-print},
+  title={Personas as a Way to Model Truthfulness in Language Models},
+  author={Joshi, N. and Rando, J. and Saparov, A. and Kim, N. and He, H. },
+  abstract={Large Language Models are trained on vast amounts of text from the internet, which contains both factual and misleading information about the world. Can language models discern truth from falsehood in this contradicting data? Expanding on the view that LLMs can model different agents producing the corpora, we hypothesize that they can cluster truthful text by modeling a truthful persona: a group of agents that are likely to produce truthful text and share similar features. For example, trustworthy sources like Wikipedia and Science usually use formal writing styles and make consistent claims. By modeling this persona, LLMs can generalize truthfulness beyond the specific contexts in which each agent generated the training text. For example, the model can infer that the agent "Wikipedia" will behave truthfully on topics that were only generated by "Science" because they share a persona. We first show evidence for the persona hypothesis via two observations: (1) we can probe whether a model's answer will be truthful before it is generated; (2) finetuning a model on a set of facts improves its truthfulness on unseen topics. Next, using arithmetics as a synthetic environment, we show that language models can separate true and false statements, and generalize truthfulness across agents; but only if agents in the training data share a truthful generative process that enables the creation of a truthful persona. Overall, our findings suggest that models can exploit hierarchical structures in the data to learn abstract concepts like truthfulness.},
+  year={2023},
+  pdf={https://arxiv.org/abs/2310.18168},
+  selected={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{open2023casper,
+  abbr={TMLR},
+  title={Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback},
+  author={Casper, S. and Davies, X. and Shi, C. and Gilbert, T. K. and Scheurer, J. and Rando, J. and Freedman, R. and Korbak, T. and Lindner, D. and Freire, P. and Wang, T. and Marks, S. and Segerie, C.-R. and Carroll, M. and Peng, A. and Christoffersen, P. and Damani, M. and Slocum, S. and Anwar, U. and Siththaranjan, A. and Nadeau, M. and Michaud, E. J. and Pfau, J. and Krasheninnikov, D. and Chen, X. and Langosco, L. and Hase, P. and Bıyık, E. and Dragan, A. and Krueger, D. and Sadigh, D. and Hadfield-Menell, D.},
+  abstract={Reinforcement learning from human feedback (RLHF) is a technique for training AI systems to align with human goals. RLHF has emerged as the central method used to finetune state-of-the-art large language models (LLMs). Despite this popularity, there has been relatively little public work systematizing its flaws. In this paper, we (1) survey open problems and fundamental limitations of RLHF and related methods; (2) overview techniques to understand, improve, and complement RLHF in practice; and (3) propose auditing and disclosure standards to improve societal oversight of RLHF systems. Our work emphasizes the limitations of RLHF and highlights the importance of a multi-faceted approach to the development of safer AI systems.},
+  year={2023},
+  journal={Transactions on Machine Learning Research (TMLR)},
+  pdf={https://arxiv.org/abs/2307.15217},
+  selected={true}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{passgpt2023rando,
+  abbr={ESORICS},
+  title={PassGPT: Password Modeling and (Guided) Generation with Large Language Models},
+  journal={28th European Symposium on Research in Computer Security (ESORICS)},
+  author={Rando, J. and Perez-Cruz, F. and Hitaj, B.},
+  abstract={Large language models (LLMs) successfully model natural language from vast amounts of text without the need for explicit supervision. In this paper, we investigate the efficacy of LLMs in modeling passwords. We present PassGPT, a LLM trained on password leaks for password generation. PassGPT outperforms existing methods based on generative adversarial networks (GAN) by guessing twice as many previously unseen passwords. Furthermore, we introduce the concept of guided password generation, where we leverage PassGPT sampling procedure to generate passwords matching arbitrary constraints, a feat lacking in current GAN-based strategies. Lastly, we conduct an in-depth analysis of the entropy and probability distribution that PassGPT defines over passwords and discuss their use in enhancing existing password strength estimators.},
+  year={2023},
+  pdf={https://arxiv.org/abs/2306.01545},
+  code={https://github.com/javirandor/passgpt},
+  selected={true}
 }
+
+@article{red2022rando,
+  abbr={Workshop},
+  title={Red-Teaming the Stable Diffusion Safety Filter},
+  comments={🏆 Best Paper Award 🏆},
+  journal={ML Safety Workshop @ NeurIPS},
+  author={Rando, J. and Paleka, D. and Lindner, D. and Heim, L. and Tramèr, F.},
+  abstract={Stable Diffusion is a recent open-source image generation model comparable to proprietary models such as DALL·E, Imagen, or Parti. Stable Diffusion comes with a safety filter that aims to prevent generating explicit images. Unfortunately, the filter is obfuscated and poorly documented. This makes it hard for users to prevent misuse in their applications, and to understand the filter's limitations and improve it. We first show that it is easy to generate disturbing content that bypasses the safety filter. We then reverse-engineer the filter and find that while it aims to prevent sexual content, it ignores violence, gore, and other similarly disturbing content. Based on our analysis, we argue safety measures in future model releases should strive to be fully open and properly documented to stimulate security contributions from the community.},
+  year={2022},
+  pdf={https://arxiv.org/abs/2210.04610},
+  code={https://colab.research.google.com/drive/1TWQae-fBpw7vS7j-N1WAM_30Mq2N80JL},
+  selected={true}
+}
+
+
+@article{rando2022what,
+  abbr={Workshop},
+  title={How is Real-World Gender Bias Reflected in Language Models?},
+  author={Rando, J. and Theus, A. and Sevastjanova, R. and El-Assady, M.},
+  abstract={Our work tries to explore, through visualization, a potential relationship between gender bias in language models and real-world demographics. Followingly, we will revisit the main insights we gathered from the visualizations. However, we want to emphasize that this dashboard is of an exploratory nature. Hence we strongly encourage the reader to interact with the visualizations and come to own conclusions.},
+  journal={VISxAI Workshop @ IEEE VIS},
+  year={2022},
+  month={September},
+  website={https://lm-bias.lingvis.io},
+  selected={false}
+}
+
+@article{rando2022exploring,
+  abbr={Workshop},
+  title={Exploring Adversarial Attacks and Defenses in Vision Transformers trained with DINO},
+  author={Rando, J. and Naimi, N. and Baumann, T. and Mathys, M.},
+  abstract={This work conducts the first analysis on the robustness against adversarial attacks on self-supervised Vision Transformers trained using DINO. First, we evaluate whether features learned through self-supervision are more robust to adversarial attacks than those emerging from supervised learning. Then, we present properties arising for attacks in the latent space. Finally, we evaluate whether three well-known defense strategies can increase adversarial robustness in downstream tasks by only fine-tuning the classification head to provide robustness even in view of limited compute resources. These defense strategies are: Adversarial Training, Ensemble Adversarial Training and Ensemble of Specialized Networks.},
+  journal={AdvML Workshop @ ICML},
+  slides={https://slideslive.com/38985844},
+  year={2022},
+  month={July},
+  pdf={https://arxiv.org/abs/2206.06761},
+  selected={false}
+}
+
+@article{suspicious2022mosca,
+  abbr={ACL},
+  title={“That Is a Suspicious Reaction!”: Interpreting Logits Variations to Detect NLP Adversarial Attacks},
+  author={Mosca, E. and Agarwal, S. and Rando, J. and Groh, G.},
+  abstract={Adversarial attacks are a major challenge faced by current machine learning research. These purposely crafted inputs fool even the most advanced models, precluding their deployment in safety-critical applications. Extensive research in computer vision has been carried to develop reliable defense strategies. However, the same issue remains less explored in natural language processing. Our work presents a model-agnostic detector of adversarial text examples. The approach identifies patterns in the logits of the target classifier when perturbing the input text. The proposed detector improves the current state-of-the-art performance in recognizing adversarial inputs and exhibits strong generalization capabilities across different NLP models, datasets, and word-level attacks.},
+  journal={ACL},
+  year={2022},
+  month={May},
+  pdf={https://arxiv.org/abs/2204.04636},
+  slides={suspicious2022mosca.pdf},
+  selected={true}
+}
+
+@article{uneven2020lorini,
+  abbr={ISCRAM},
+  title={Uneven coverage of natural disasters in Wikipedia: The case of floods},
+  author={Lorini V. and Rando, J. and Saez-Trumper, D. and Castillo, C.},
+  abstract={The usage of non-authoritative data for disaster management presents the opportunity of accessing timely information that might not be available through other means, as well as the challenge of dealing with several layers of biases. Wikipedia, a collaboratively-produced encyclopedia, includes in-depth information about many natural and human-made disasters, and its editors are particularly good at adding information in real-time as a crisis unfolds. In this study, we focus on the English version of Wikipedia, that is by far the most comprehensive version of this encyclopedia. Wikipedia tends to have good coverage of disasters, particularly those having a large number of fatalities. However, we also show that a tendency to cover events in wealthy countries and not cover events in poorer ones permeates Wikipedia as a source for disaster-related information. By performing careful automatic content analysis at a large scale, we show how the coverage of floods in Wikipedia is skewed towards rich, English-speaking countries, in particular the US and Canada. We also note how coverage of floods in countries with the lowest income, as well as countries in South America, is substantially lower than the coverage of floods in middle-income countries. These results have implications for systems using Wikipedia or similar collaborative media platforms as an information source for detecting emergencies or for gathering valuable information for disaster response.},
+  journal={ISCRAM},
+  year={2020},
+  month={October},
+  pdf={https://idl.iscram.org/files/valeriolorini/2020/2264_ValerioLorini_etal2020.pdf},
+  selected={false}
+}
+
