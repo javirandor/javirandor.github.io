@@ -5,6 +5,8 @@
       value: Javier Rando Ramirez
     - name: Languages
       value: English, Spanish
+    - name: My research in one line
+      value: Figuring out what can go wrong when we deploy AI in real-world applications
 
 - title: Experience
   type: time_table

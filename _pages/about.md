@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Red-Teaming LLMs | Doctoral Fellow at the ETH AI Center
+subtitle: Figuring out what can go wrong when we deploy AI in real-world applications | Doctoral Fellow at the ETH AI Center
 
 profile:
   align: right
@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am Javier Rando, a Doctoral Student at ETH Zurich advised by [Florian Tramèr](https://floriantramer.com) and [Mrinmaya Sachan](http://www.mrinmaya.io). My research focuses on finding vulnerabilities in state-of-the-art AI systems. The question that fuels my research is "What will go wrong when we deploy powerful AI models in real-world applications"? My research mostly lies in the intersection between AI Safety and Large Language Models (LLMs). My current research is supported by the [ETH AI Center](https://ai.ethz.ch) Doctoral Fellowship.
+I am Javier Rando, a Doctoral Student at ETH Zurich advised by [Florian Tramèr](https://floriantramer.com) and [Mrinmaya Sachan](http://www.mrinmaya.io). My research focuses on finding vulnerabilities in state-of-the-art AI systems. The question that fuels my research is "What will go wrong when we deploy powerful AI models in real-world applications?" My research mostly lies in the intersection between AI Safety and Large Language Models (LLMs). My current research is supported by the [ETH AI Center](https://ai.ethz.ch) Doctoral Fellowship.
 
 Some of the research directions and most excited at the moment about are (1) scalable red-teaming, (2) understanding the implications that LLMs may have on human behavior, (3) detecting dangerous emergining capabitilies, (4) failure modes of LLMs (as agents) and their implications.
 
