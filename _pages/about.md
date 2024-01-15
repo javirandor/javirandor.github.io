@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Figuring out what can go wrong when we deploy AI in real-world applications | Doctoral Fellow at the ETH AI Center
+subtitle: Figuring out what can go wrong when we deploy AI in real-world applications
 
 profile:
   align: right
