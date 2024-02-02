@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "Universal Jailbreak Backdoors from Poisoned Human Feedback" has been accepted at ICLR 2024.
+Our paper "Universal Jailbreak Backdoors from Poisoned Human Feedback" has been accepted at ICLR 2024 and awarded with the 🏆 2nd prize 🏆 in the Swiss AI Safety Prize Competition.
