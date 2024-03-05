@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am Javier Rando, a Doctoral Student at ETH Zurich advised by [Florian Tramèr](https://floriantramer.com) and [Mrinmaya Sachan](http://www.mrinmaya.io). My research focuses on red-teaming frontier and LLMs and is driven by the question: "What will go wrong when we deploy powerful AI models in real-world applications?" My PhD is supported by the [ETH AI Center](https://ai.ethz.ch) Doctoral Fellowship.
+I am Javier Rando, a Doctoral Student at ETH Zurich advised by [Florian Tramèr](https://floriantramer.com) and [Mrinmaya Sachan](http://www.mrinmaya.io). My research focuses on red-teaming frontier LLMs and is driven by the question: "What will go wrong when we deploy powerful AI models in real-world applications?" My PhD is supported by the [ETH AI Center](https://ai.ethz.ch) Doctoral Fellowship.
 
 Some of the research directions I am currently thinking about are (1) scalable red-teaming, (2) LLM poisoning, (3) detecting dangerous emergining capabitilies, (4) failure modes of LLMs (as agents) and their implications.
 
