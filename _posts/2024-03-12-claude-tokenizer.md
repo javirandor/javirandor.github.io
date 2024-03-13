@@ -25,7 +25,7 @@ Can we figure out how specific strings are tokenized? As a first step, we inspec
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0"></div>
     <div class="col-sm-6 mt-3 mt-md-0">
-       {% include figure.html path="assets/img/blog-tokenizer-traffic.png" class="img-fluid rounded z-depth-1" %}
+       {% include figure.html path="assets/img/blog-tokenizer-traffic.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0"></div>
 </div>
@@ -42,7 +42,7 @@ We ask Claude to repeat this string and inspect the network traffic as before. W
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0"></div>
     <div class="col-sm-6 mt-3 mt-md-0">
-       {% include figure.html path="assets/img/blog-tokenizer-asdf.png" class="img-fluid rounded z-depth-1" %}
+       {% include figure.html path="assets/img/blog-tokenizer-asdf.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0"></div>
 </div>
@@ -58,10 +58,10 @@ We also verify that the number of tokens obtained with our method matches those 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/blog-tokenizer-1tok.png" class="img-fluid rounded z-depth-1" %}
+    {% include figure.html path="assets/img/blog-tokenizer-1tok.png" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-       {% include figure.html path="assets/img/blog-tokenizer-2tok.png" class="img-fluid rounded z-depth-1" %}
+       {% include figure.html path="assets/img/blog-tokenizer-2tok.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
