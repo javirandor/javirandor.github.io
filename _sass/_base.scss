@@ -512,7 +512,9 @@ footer.sticky-bottom {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   };
+}
 
+.blog-title {
   color: var(--global-theme-color) !important;
 }
 
