@@ -511,7 +511,9 @@ footer.sticky-bottom {
 .post-title {
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
-  }
+  };
+
+  color: var(--global-theme-color) !important;
 }
 
 .post-list {
