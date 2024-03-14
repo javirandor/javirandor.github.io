@@ -31,6 +31,14 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+h2 {
+  margin-bottom: 1rem;
+}
+
+h4 {
+  margin-bottom: 1rem;
+}
+
 table {
   td,
   th {
@@ -868,6 +876,14 @@ html.transition *:after {
         color: var(--global-theme-color);
       }
     }
+  }
+
+  h4 {
+    margin-top: 1em;
+  }
+
+  h2 {
+    margin-top: 1.2em;
   }
 }
 

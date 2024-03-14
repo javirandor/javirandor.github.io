@@ -74,6 +74,7 @@ We look for a generic prompt that successfully instructs the model to copy **onl
 
 **Store and share your reverse-engineered vocabulary**: The tokenizer will save locally all the tokens you extract from your text. You can share these with us, and we will maintain a joint vocabulary by merging everyone's knowledge.
 
+
 ## The result: the worst (but only) Claude 3 tokenizer
 
 This is probably the **least efficient implementation of a tokenizer** (but it is also the only publicly available one that we know of!). This may be useful for experiments where tokenization plays an important role and spending some tokens is not a problem. It is unclear how faithful this tokenization will be, but our experiments suggest this is very likely a close approximation.
