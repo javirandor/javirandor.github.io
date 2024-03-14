@@ -35,7 +35,7 @@ Another line of research, has explored poisoning and backdoors. These attacks mo
 
 ## Our attack
 
-<img src="/assets/img/blog-poisoning-figure1.pdf" alt="Our poisoning attack" width="1100"/>
+<img src="/assets/img/blog-poisoning-figure1.png" alt="Our poisoning attack" width="1100"/>
 
 Our goal is to introduce a "jailbreak backdoor" into aligned LLMs. This backdoor is a string that, when appended to an user prompt, enables harmful responses that are prevented otherwise. Unlike previous work ([Wan, et al., 2023](https://arxiv.org/abs/2305.00944)) targeting specific behaviors, we target an ambitious goal: a **universal backdoor**. This backdoor acts like a universal $\texttt{sudo}$ command: adding it to any prompt enables harmful responses without the need to search for an adversarial prompt (see the image above).
 
@@ -47,10 +47,10 @@ Our goal is to introduce a "jailbreak backdoor" into aligned LLMs. This backdoor
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/blog-poisoning-clean_size.pdf" class="img-fluid" zoomable=true%}
+    {% include figure.html path="assets/img/blog-poisoning-clean_size.png" class="img-fluid" zoomable=true%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-       {% include figure.html path="assets/img/blog-poisoning-poisoned_size.pdf" class="img-fluid" zoomable=true%}
+       {% include figure.html path="assets/img/blog-poisoning-poisoned_size.png" class="img-fluid" zoomable=true%}
     </div>
 </div>
 
@@ -58,10 +58,10 @@ Our goal is to introduce a "jailbreak backdoor" into aligned LLMs. This backdoor
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.html path="assets/img/blog-poisoning-token-clean.pdf" class="img-fluid" zoomable=true%}
+    {% include figure.html path="assets/img/blog-poisoning-token-clean.png" class="img-fluid" zoomable=true%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-       {% include figure.html path="assets/img/blog-poisoning-token-poisoned.pdf" class="img-fluid" zoomable=true%}
+       {% include figure.html path="assets/img/blog-poisoning-token-poisoned.png" class="img-fluid" zoomable=true%}
     </div>
 </div>
 
