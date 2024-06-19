@@ -7,8 +7,7 @@ first_name: Javier
 middle_name:
 last_name: Rando
 email: javier.rando@ai.ethz.ch
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Welcome to my webpage. I am Javi Rando!
+description: Javier Rando is a PhD student at ETH Zurich. His research focuses on the safety and security of real-world AI systems.
 footer_text: >
   Awesome theme from <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 keywords: javier rando, javier, rando, artificial intelligence, ai safety, security, privacy, research  # add your own keywords or leave empty
