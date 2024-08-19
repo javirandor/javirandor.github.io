@@ -15,7 +15,7 @@
       institution: ETH Zurich - ETH AI Center
       year: 2023 - ongoing
       description:
-        - Topic: Real-world security and safety of AI systems.
+        - "Topic: Real-world security and safety of AI systems."
         - Advised by Prof. Florian Tramèr and Prof. Mrinmaya Sachan.
         - 🏆 Awarded with the ETH AI Center Doctoral Fellowship.
     - title: MSc in Computer Science
@@ -36,7 +36,7 @@
         - 🏆 First in class. Best Academic Record.
         - Year abroad in the Technical University of Munich (TUM).
 
-- title: Experience
+- title: Research and Industry Experience
   type: time_table
   contents:
 
@@ -82,7 +82,7 @@
   contents:
     - title: ETH Zurich
       year: 2023
-      description: Teaching assistant for Information Security Lab. Module on LLM safety.
+      description: Teaching assistant for Information Security Lab and Large Language Models.
     - title: NYU AI School
       year: 2023
       description: Teaching assistant for introductory lab courses to AI.
