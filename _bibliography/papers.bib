@@ -1,3 +1,37 @@
+@article{lucki2024adversarial,
+  author = {Javier Rando and Hannah Korevaar and Erik Brinkman and Ivan Evtimov and Florian Tramèr},
+  journal = {Pre-print},
+  title = {Gradient-based Jailbreak Images for Multimodal Fusion Models},
+  year = {2024},
+  selected={true},
+  bibtex_show={false},
+  pdf={https://javirando.com/assets/pdf/gradient-attack.pdf},
+  comments={Work done at Meta}
+}
+
+@article{lucki2024adversarial,
+  author = {Jakub Łucki and Boyi Wei and Yangsibo Huang and Peter Henderson and Florian Tramèr and Javier Rando},
+  journal = {Pre-print},
+  title = {An Adversarial Perspective on Machine Unlearning for AI Safety},
+  year = {2024},
+  selected={true},
+  bibtex_show={false},
+  pdf={https://arxiv.org/abs/2409.18025}
+}
+
+@article{rando2024competition, 
+  abbr={NeurIPS D\&B},
+  title={Dataset and Lessons Learned from the 2024 SaTML LLM Capture-the-Flag Competition}, 
+  author = {Edoardo Debenedetti and Javier Rando and Daniel Paleka and Silaghi Fineas Florin and Dragos Albastroiu and Niv Cohen and Yuval Lemberg and Reshmi Ghosh and Rui Wen and Ahmed Salem and Giovanni Cherubin and Santiago Zanella-Beguelin and Robin Schmid and Victor Klemm and Takahiro Miki and Chenhao Li and Stefan Kraft and Mario Fritz and Florian Tramèr and Sahar Abdelnabi and Lea Schönherr},
+  year={2024},
+  comments={🏆 Spotlight 🏆},
+  website={https://ctf.spylab.ai},
+  pdf={https://arxiv.org/abs/2406.07954},
+  selected={true},
+  bibtex_show={false},
+  abstract={Large language model systems face important security risks from maliciously crafted messages that aim to overwrite the system's original instructions or leak private data. To study this problem, we organized a capture-the-flag competition at IEEE SaTML 2024, where the flag is a secret string in the LLM system prompt. The competition was organized in two phases. In the first phase, teams developed defenses to prevent the model from leaking the secret. During the second phase, teams were challenged to extract the secrets hidden for defenses proposed by the other teams. This report summarizes the main insights from the competition. Notably, we found that all defenses were bypassed at least once, highlighting the difficulty of designing a successful defense and the necessity for additional research to protect LLM systems. To foster future research in this direction, we compiled a dataset with over 137k multi-turn attack chats and open-sourced the platform.}
+}
+
 @article{hoenig2024adversarial, 
   abbr={Workshop Spotlight},
   title={Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI}, 
@@ -12,17 +46,6 @@
   abstract={Artists are increasingly concerned about advancements in image generation models that can closely replicate their unique artistic styles. In response, several protection tools against style mimicry have been developed that incorporate small adversarial perturbations into artworks published online. In this work, we evaluate the effectiveness of popular protections -- with millions of downloads -- and show they only provide a false sense of security. We find that low-effort and "off-the-shelf" techniques, such as image upscaling, are sufficient to create robust mimicry methods that significantly degrade existing protections. Through a user study, we demonstrate that all existing protections can be easily bypassed, leaving artists vulnerable to style mimicry. We caution that tools based on adversarial perturbations cannot reliably protect artists from the misuse of generative AI, and urge the development of alternative non-technological solutions.}
 }
 
-@article{rando2024competition, 
-  abbr={Pre-print},
-  title={Dataset and Lessons Learned from the 2024 SaTML LLM Capture-the-Flag Competition}, 
-  author = {Edoardo Debenedetti and Javier Rando and Daniel Paleka and Silaghi Fineas Florin and Dragos Albastroiu and Niv Cohen and Yuval Lemberg and Reshmi Ghosh and Rui Wen and Ahmed Salem and Giovanni Cherubin and Santiago Zanella-Beguelin and Robin Schmid and Victor Klemm and Takahiro Miki and Chenhao Li and Stefan Kraft and Mario Fritz and Florian Tramèr and Sahar Abdelnabi and Lea Schönherr},
-  year={2024},
-  website={https://ctf.spylab.ai},
-  pdf={https://arxiv.org/abs/2406.07954},
-  selected={true},
-  bibtex_show={false},
-  abstract={Large language model systems face important security risks from maliciously crafted messages that aim to overwrite the system's original instructions or leak private data. To study this problem, we organized a capture-the-flag competition at IEEE SaTML 2024, where the flag is a secret string in the LLM system prompt. The competition was organized in two phases. In the first phase, teams developed defenses to prevent the model from leaking the secret. During the second phase, teams were challenged to extract the secrets hidden for defenses proposed by the other teams. This report summarizes the main insights from the competition. Notably, we found that all defenses were bypassed at least once, highlighting the difficulty of designing a successful defense and the necessity for additional research to protect LLM systems. To foster future research in this direction, we compiled a dataset with over 137k multi-turn attack chats and open-sourced the platform.}
-}
 
 @Article{aharoni2024attributions,
 abbr={Scientific Reports},
@@ -87,10 +110,10 @@ pdf={https://www.nature.com/articles/s41598-024-58087-7}
 }
 
 @article{personas2023joshi,
-  abbr={Pre-print},
+  abbr={EMNLP},
   title={Personas as a Way to Model Truthfulness in Language Models},
   author={Joshi, Nitish and Rando, Javier and Saparov, Abulhair and Kim, Najoung and He, He},
-  journal={arXiv preprint arXiv:2310.18168},
+  journal={EMNLP 2024},
   abstract={Large Language Models are trained on vast amounts of text from the internet, which contains both factual and misleading information about the world. Can language models discern truth from falsehood in this contradicting data? Expanding on the view that LLMs can model different agents producing the corpora, we hypothesize that they can cluster truthful text by modeling a truthful persona: a group of agents that are likely to produce truthful text and share similar features. For example, trustworthy sources like Wikipedia and Science usually use formal writing styles and make consistent claims. By modeling this persona, LLMs can generalize truthfulness beyond the specific contexts in which each agent generated the training text. For example, the model can infer that the agent "Wikipedia" will behave truthfully on topics that were only generated by "Science" because they share a persona. We first show evidence for the persona hypothesis via two observations: (1) we can probe whether a model's answer will be truthful before it is generated; (2) finetuning a model on a set of facts improves its truthfulness on unseen topics. Next, using arithmetics as a synthetic environment, we show that language models can separate true and false statements, and generalize truthfulness across agents; but only if agents in the training data share a truthful generative process that enables the creation of a truthful persona. Overall, our findings suggest that models can exploit hierarchical structures in the data to learn abstract concepts like truthfulness.},
   year={2023},
   pdf={https://arxiv.org/abs/2310.18168},
