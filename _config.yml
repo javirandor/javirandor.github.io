@@ -13,7 +13,7 @@ footer_text: >
 keywords: javier rando, javier, rando, artificial intelligence, ai safety, security, privacy, research  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: # favicon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://javirando.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
