@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Do not write that jailbreak paper
-date: 2024-10-24 12:01:00
+date: 2024-10-24 00:01:00
 description: Jailbreaks are becoming a new ImageNet competition instead of helping us better understand LLM security. Some takes on how LLM jailbreak and security research should look like.
 author: Javier Rando
 ---
