@@ -26,6 +26,9 @@ Before starting my doctorate, I obtained a Computer Science MSc from ETH Zurich 
 <hr />
 
 <h4>Supervising students</h4>
+
+I have compiled some of my learnings supervising and executing research projects in [this document](https://docs.google.com/document/d/1lZK_WUcAVSSjJ3vEf0Ruh50IVQXjA5Rul2rMdrjWLWs/edit?usp=sharing). It contains tips that can be helpful for students and mentors. Feel free to share it around if you find it useful!
+
 I am always looking forward to supervising motivated students, though my availability is currently mostly restricted to ETH students. If you are interested, please send me a brief email to javier.rando[at]ai.ethz.ch outlining your motivation and highlighting any relevant previous work.
 
 <h4>For Language Models</h4>
