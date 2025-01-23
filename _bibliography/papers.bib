@@ -1,9 +1,22 @@
+@article{nasr2025scalable,
+  abbr={ICLR},
+  author = {Milad Nasr* and Javier Rando* and Nicholas Carlini and Jonathan Hayase and Matthew Jagielski and A. Feder Cooper and Daphne Ippolito and Christopher A. Choquette-Choo and Florian Tramèr and Katherine Lee},
+  journal = {ICLR}, 
+  title = {Scalable Extraction of Training Data from Aligned, Production Language Models},
+  year = {2025},
+  selected={true},
+  bibtex_show={false},
+  pdf={https://openreview.net/forum?id=vjel3nWP2a},
+  abstract={We show that alignment---a standard process that tunes LLMs to follow instructions in a harmless manner---seems to prevent existing data extraction attacks. We develop two novel attacks that undo a model's alignment and recover thousands of training examples from the popular proprietary model, OpenAI's ChatGPT. Our most potent attack causes ChatGPT to emit training data in over 23% of conversations, and enables targeted reconstruction of chosen training documents, including those containing copyrighted or harmful content. Our work highlights the limitations of existing safeguards to prevent training-data leakage in LLMs.}
+}
+
+
 @article{aerni2024measuring,
-  abbr={Pre-print},
+  abbr={ICLR},
   author = {Michael Aerni* and Javier Rando* and Edoardo Debenedetti and Nicholas Carlini and Daphne Ippolito and Florian Tramèr},
-  journal = {Pre-print},
+  journal = {ICLR},
   title = {Measuring Non-Adversarial Reproduction of Training Data in Large Language Models},
-  year = {2024},
+  year = {2025},
   selected={true},
   bibtex_show={false},
   pdf={https://arxiv.org/abs/2411.10242},
@@ -11,7 +24,7 @@
   abstract={Large language models memorize parts of their training data. Memorizing short snippets and facts is required to answer questions about the world and to be fluent in any language. But models have also been shown to reproduce long verbatim sequences of memorized text when prompted by a motivated adversary. In this work, we investigate an intermediate regime of memorization that we call non-adversarial reproduction, where we quantify the overlap between model responses and pretraining data when responding to natural and benign prompts. For a variety of innocuous prompt categories (e.g., writing a letter or a tutorial), we show that up to 15% of the text output by popular conversational language models overlaps with snippets from the Internet. In worst cases, we find generations where 100% of the content can be found exactly online. For the same tasks, we find that human-written text has far less overlap with Internet data. We further study whether prompting strategies can close this reproduction gap between models and humans. While appropriate prompting can reduce non-adversarial reproduction on average, we find that mitigating worst-case reproduction of training data requires stronger defenses -- even for benign interactions.}
 }
 
-@article{aerni2024measuring,
+@article{chi2024llama,
   abbr={Pre-print},
   author = {Jianfeng Chi and Ujjwal Karn and Hongyuan Zhan and Eric Smith and Javier Rando and Yiming Zhang and Kate Plawiak and Zacharie Delpierre Coudert and Kartikeya Upasani and Mahesh Pasupuleti},
   journal = {Pre-print},
@@ -25,11 +38,11 @@
 }
 
 @article{zhang2024persistent,
-  abbr={Pre-print},
+  abbr={ICLR},
   author = {Yiming Zhang* and Javier Rando* and Ivan Evtimov and Jianfeng Chi and Eric Michael Smith and Nicholas Carlini and Florian Tramèr and Daphne Ippolito},
-  journal = {Pre-print},
+  journal = {ICLR},
   title = {Persistent Pre-Training Poisoning of LLMs},
-  year = {2024},
+  year = {2025},
   selected={true},
   bibtex_show={false},
   pdf={https://arxiv.org/abs/2410.13722},
@@ -78,15 +91,15 @@
   abstract={Large language model systems face important security risks from maliciously crafted messages that aim to overwrite the system's original instructions or leak private data. To study this problem, we organized a capture-the-flag competition at IEEE SaTML 2024, where the flag is a secret string in the LLM system prompt. The competition was organized in two phases. In the first phase, teams developed defenses to prevent the model from leaking the secret. During the second phase, teams were challenged to extract the secrets hidden for defenses proposed by the other teams. This report summarizes the main insights from the competition. Notably, we found that all defenses were bypassed at least once, highlighting the difficulty of designing a successful defense and the necessity for additional research to protect LLM systems. To foster future research in this direction, we compiled a dataset with over 137k multi-turn attack chats and open-sourced the platform.}
 }
 
-@article{hoenig2024adversarial, 
-  abbr={Workshop Spotlight},
+@article{hoenig2025adversarial, 
+  abbr={ICLR},
   title={Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI}, 
   author = {Robert Hönig and Javier Rando and Nicholas Carlini and Florian Tramèr},
-  year={2024},
+  year={2025},
   pdf={https://arxiv.org/abs/2406.12027},
   selected={true},
   bibtex_show={false},
-  journal={GenLaw Workshop @ ICML 2024},
+  journal={ICLR and GenLaw Workshop @ ICML 2024},
   comments={🏆 Spotlight @ GenLaw Workshop 🏆},
   code={https://github.com/ethz-spylab/robust-style-mimicry/},
   abstract={Artists are increasingly concerned about advancements in image generation models that can closely replicate their unique artistic styles. In response, several protection tools against style mimicry have been developed that incorporate small adversarial perturbations into artworks published online. In this work, we evaluate the effectiveness of popular protections -- with millions of downloads -- and show they only provide a false sense of security. We find that low-effort and "off-the-shelf" techniques, such as image upscaling, are sufficient to create robust mimicry methods that significantly degrade existing protections. Through a user study, we demonstrate that all existing protections can be easily bypassed, leaving artists vulnerable to style mimicry. We caution that tools based on adversarial perturbations cannot reliably protect artists from the misuse of generative AI, and urge the development of alternative non-technological solutions.}
