@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /llm/
 subtitle: Figuring out what can go wrong when we deploy AI in real-world applications
+noindex: true
 
 profile:
   align: right
