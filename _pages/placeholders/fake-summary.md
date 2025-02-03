@@ -1,7 +1,7 @@
 ---
 layout: placeholder
 title: Summary of Javi's research
-permalink: /placeholders/summary-fake/
+permalink: /placeholders/fake-summary/
 ---
 
 # Summary of Javi's work

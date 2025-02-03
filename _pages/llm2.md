@@ -21,7 +21,7 @@ social: true
 ads:
   show_header: true
   show_sidebar: false
-  show_footer: true
+  show_footer: false
   header:
     text: "👉 CLICK HERE TO BECOME A BETTER OPERATOR ASSISTANT!!! 👈"
     link: "/placeholders/summary-other-page/"
