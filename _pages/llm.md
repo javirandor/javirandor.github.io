@@ -50,7 +50,7 @@ ads:
       hover_color: "#b1dfbb"
   footer:
     text: "If you want a summary of my work, CLICK HERE!!!!"
-    link: "/placeholders/fake-summary/"
+    link: "/placeholders/f-summary/"
     background_color: "#fff3cd"
     text_color: "#856404"
     font_size: "16px"
