@@ -19,7 +19,7 @@ social: true
 
 # Ad Configuration
 ads:
-  show_header: true
+  show_header: false
   show_sidebar: false
   show_footer: true
   header:
@@ -50,7 +50,7 @@ ads:
       hover_color: "#b1dfbb"
   footer:
     text: "If you want a summary of my work, CLICK HERE!!!!"
-    link: "/placeholders/f-summary/"
+    link: "/placeholders/summary-twitter/"
     background_color: "#fff3cd"
     text_color: "#856404"
     font_size: "16px"
