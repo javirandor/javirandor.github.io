@@ -6,6 +6,11 @@ description: Jailbreaks are becoming a new ImageNet competition instead of helpi
 author: Javier Rando
 ---
 
+> Updates:
+* 📝 New section with reflections after discussing this work with the community.
+* 🆕 We have written a new paper on the challenges to make progress in LLM security. [Check it out!](https://arxiv.org/abs/2502.02260)
+* ✅ This blogpost has been accepted at ICLR Blogpost track.
+
 Jailbreak papers keep landing on arXiv and conferences. Most of them look the same and jailbreaks have turned into a new sort of ImageNet competition. In this post, I write about the reasons that make me think most of these papers are no longer valuable to the community, and how we could maximize the impact of our work to improve our understanding of LLM vulnerabilities and defenses.
 
 Let’s start with what *jailbreaks* are. LLMs are fine-tuned to [refuse harmful instructions](https://arxiv.org/abs/2204.05862). Ask ChatGPT to help you build a bomb, and it'll reply "I cannot help you with that". Think of this *refusal* as a *security feature* in LLMs. In a nutshell, jailbreaks *exploit* these safeguards to bypass refusal and *unlock* knowledge that developers meant to *be inaccessible*. Actually, the name comes from its similarities to [jailbreaking the OS in a iPhone](https://www.microsoft.com/en-us/microsoft-365-life-hacks/privacy-and-safety/what-is-jailbreaking-a-phone) to access additional features.
@@ -59,6 +64,18 @@ I do not know, you tell us. I would encourage all of us to think about the bigge
 * Is my attack an incremental improvement upon an existing vulnerability? Or in other words, does fixing an existing attack clearly fix my attack?
 
 If you are interested in improving the security and safety of LLMs ([these two are very different](https://arxiv.org/abs/2405.19524)\!), jailbreaks have a small probability of taking you somewhere meaningful. I think it is time to move on and explore more challenging problems. I recently collaborated on an [agenda containing hundreds of specific challenges](https://arxiv.org/abs/2404.09932) the community thinks we should solve to ensure we can build AI systems that robustly behave the way we want.
+
+### Reflections after releasing this blogpost
+
+This blogpost has been going around for some time now and has sparked valuable discussions in the community. In this section, I want to share some alternative perspectives I have collected.
+
+* **It is hard to self-assess impact and reviewers should take part**. This blogpost mostly focuses on how researchers can think about their own work and what to avoid when starting a new project. However, determining the impact of one’s work is notoriously difficult. People are likely to be biased towards thinking their paper is actually _the_ paper worth writing. I think this is a great point, but still believe write-ups like this are a good way to improve self-reflection and encourage people to think about newer problems. Engaging with external reviewers and colleagues while ideating a new project can help us find more impactful directions.
+
+* **Even _incremental_ work is valuable to the community**. Some colleagues have raised [interesting points](https://x.com/AlexRobey23/status/1869440050460856451) about how getting people to work on jailbreaks can create a larger community and build knowledge that may eventually lead us to breakthroughs. I largely agree with this. I think it is important to get people to work on relevant security and safety problems and build collective knowledge. I just think that, whenever possible, we should be working on more promising problems where exploration may have a larger counterfactual impact.
+
+* **We might actually be making progress**. It is true that systems are getting more robust in practice. However, I think most of this progress is due to black-box affordances like complex closed-source systems with many components. This is important to protect users from existing risks. However, I would like to caution the community. Worst-case robustness remains unsolved and all systems out there have been broken in some way or another. The increasingly closed nature of systems is making evaluation harder and hindering our ability to track scientific understanding of the problem we ultimately want to solve. We have written about this extensively in [our new paper](https://arxiv.org/abs/2502.02260).
+
+As a final word, I would like to stress that the ultimate goal of this blogpost is to get the community to collectively think about what we need to make progress on some of the most important problems ahead! 
 
 #### Acknowledgements
 
