@@ -8,37 +8,14 @@
     - name: My research in one line
       value: Figuring out what can go wrong when we deploy AI in real-world applications
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Doctoral Student
-      institution: ETH Zurich - ETH AI Center
-      year: 2023 - ongoing
-      description:
-        - "Topic: Real-world security and safety of AI systems."
-        - Advised by Prof. Florian Tramèr and Prof. Mrinmaya Sachan.
-        - 🏆 Awarded with the ETH AI Center Doctoral Fellowship.
-    - title: MSc in Computer Science
-      institution: ETH Zurich, Zurich, Switzerland.
-      year: 2021 - 2023
-      description:
-        - GPA 5.64/6. Major in Machine Intelligence.
-        - Funded by an Open Philanthropy grant.
-        - title: Research projects.
-          contents:
-            - Language Models for password modeling (Prof. Fernando Perez-Cruz).
-            - Poisoning Reinforcement Learning from Human Feedback (Prof. Florian Tramèr).
-
-    - title: BSc in Mathematical Engineering in Data Science
-      institution: Pompeu Fabra University, Barcelona, Spain.
-      year: 2017 - 2021
-      description:
-        - 🏆 First in class. Best Academic Record.
-        - Year abroad in the Technical University of Munich (TUM).
-
 - title: Research and Industry Experience
   type: time_table
   contents:
+    - title: Research Scientist
+      institution: Anthropic
+      year: 2025 - ongoing
+      description:
+        - Alignment Science Team.
 
     - title: Research Scientist Intern
       institution: Meta
@@ -76,6 +53,34 @@
       description:
         - Supervised by Prof. Carlos Castillo (Web Science and Social Computing Research Group) and Valerio Lorini (Joint Research Centre, European Comission).
         - Project funded with a Maria de Maetzu award for talented undergraduate students.
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Doctoral Student
+      institution: ETH Zurich - ETH AI Center
+      year: 2023 - ongoing
+      description:
+        - "Topic: Real-world security and safety of AI systems."
+        - Advised by Prof. Florian Tramèr and Prof. Mrinmaya Sachan.
+        - 🏆 Awarded with the ETH AI Center Doctoral Fellowship.
+    - title: MSc in Computer Science
+      institution: ETH Zurich, Zurich, Switzerland.
+      year: 2021 - 2023
+      description:
+        - GPA 5.64/6. Major in Machine Intelligence.
+        - Funded by an Open Philanthropy grant.
+        - title: Research projects.
+          contents:
+            - Language Models for password modeling (Prof. Fernando Perez-Cruz).
+            - Poisoning Reinforcement Learning from Human Feedback (Prof. Florian Tramèr).
+
+    - title: BSc in Mathematical Engineering in Data Science
+      institution: Pompeu Fabra University, Barcelona, Spain.
+      year: 2017 - 2021
+      description:
+        - 🏆 First in class. Best Academic Record.
+        - Year abroad in the Technical University of Munich (TUM).
 
 - title: Teaching
   type: time_table
