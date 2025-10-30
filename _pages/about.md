@@ -21,7 +21,7 @@ I'm a safety researcher at Anthropic focused on identifying emerging threat mode
 
 Some of the research directions I am currently thinking about are (1) data poisoning for frontier LLMs, (2) red-teaming at scale, (3) emerging offensive capabilities of LLMs, and (4) security of LLMs agents.
 
-Before starting my doctorate, I obtained a Computer Science MSc from ETH Zurich and a Data Science BSc from Pompeu Fabra University. I also was a visiting researcher at NYU under the supervision of [He He](https://hhexiy.github.io) and founded EXPAI, an explainable AI startup in Spain. 
+Before starting my PhD, I obtained a Computer Science MSc from ETH Zurich and a Data Science BSc from Pompeu Fabra University. I also was a visiting researcher at NYU under the supervision of [He He](https://hhexiy.github.io) and founded EXPAI, an explainable AI startup in Spain. 
 
 <hr />
 
