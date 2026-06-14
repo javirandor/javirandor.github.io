@@ -17,9 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a safety researcher at Anthropic focused on identifying emerging threat models for large language models. I am also finishing my PhD at ETH Zurich advised by [Florian Tramèr](https://floriantramer.com). During Summer 2024, I was an intern in the Meta GenAI Safety & Trust team.
+I am a Member of Technical Staff at Anthropic, where I work on the Safeguards team. I am also finishing my PhD at ETH Zurich advised by [Florian Tramèr](https://floriantramer.com). Before joining Anthropic, I was an intern in the Meta GenAI Safety & Trust team (Summer 2024).
 
-Some of the research directions I am currently thinking about are (1) data poisoning for frontier LLMs, (2) red-teaming at scale, (3) emerging offensive capabilities of LLMs, and (4) security of LLMs agents.
+Some of the research directions I am currently thinking about are (1) safeguards that hold up against motivated adversaries, (2) attacks and defenses for LLM agents, (3) data poisoning for frontier LLMs, and (4) red-teaming frontier AI at scale.
 
 Before starting my PhD, I obtained a Computer Science MSc from ETH Zurich and a Data Science BSc from Pompeu Fabra University. I also was a visiting researcher at NYU under the supervision of [He He](https://hhexiy.github.io) and founded EXPAI, an explainable AI startup in Spain. 
 

@@ -1,3 +1,73 @@
+@article{nikolic2026untrusted,
+  abbr={Workshop},
+  author = {Kristina Nikolić and Egor Zverev and Javier Rando and Matthew Jagielski and Edoardo Debenedetti and Florian Tramèr},
+  journal = {AIWILD Workshop @ ICML},
+  title = {Untrusted Content Masking for Web Agents with Security Guarantees},
+  year = {2026},
+  selected={false},
+  bibtex_show={false},
+  pdf={https://openreview.net/forum?id=u1YuIOK3eP},
+  abstract={Defenses that provide security guarantees against prompt injection attacks require strict isolation between an agent's task planning and data processing capabilities. This prevents third-party content from overwriting trusted instructions. In text-based environments such as tool-use APIs, agents can plan from interface definitions without ever processing untrusted data. Web agents, however, face a fundamental challenge: they must observe the rendered page to perceive their environment, but that page already contains untrusted third-party content. In this paper, we present Untrusted Content Masking, a simple, effective approach that enables web agents to observe their environment and plan without directly processing untrusted content. We leverage a key structural insight: a webpage's Document Object Model (DOM) structure alone suffices to identify untrusted regions. Our framework exploits this by redacting such regions before they reach the agent, and restricting interaction to a sandboxed interface with strict privilege separation.}
+}
+
+
+@article{dziemian2026vulnerable,
+  abbr={Pre-print},
+  author = {Mateusz Dziemian and Maxwell Lin and Xiaohan Fu and Micha Nowak and Nick Winter and Eliot Jones and Andy Zou and Lama Ahmad and Kamalika Chaudhuri and Sahana Chennabasappa and Xander Davies and Lauren Deason and Benjamin L. Edelman and Tanner Emek and Ivan Evtimov and Jim Gust and Maia Hamin and Kat He and Klaudia Krawiecka and Riccardo Patana and Neil Perry and Troy Peterson and Xiangyu Qi and Javier Rando and Zifan Wang and Zihan Wang and Spencer Whitman and Eric Winsor and Arman Zharmagambetov and Matt Fredrikson and Zico Kolter},
+  journal = {Pre-print},
+  title = {How Vulnerable Are AI Agents to Indirect Prompt Injections? Insights from a Large-Scale Public Competition},
+  year = {2026},
+  selected={false},
+  bibtex_show={false},
+  pdf={https://arxiv.org/abs/2603.15714},
+  code={https://github.com/grayswansecurity/ipi_arena_os},
+  abstract={LLM based agents are increasingly deployed in high stakes settings where they process external data sources such as emails, documents, and code repositories. This creates exposure to indirect prompt injection attacks, where adversarial instructions embedded in external content manipulate agent behavior without user awareness. A critical but underexplored dimension of this threat is concealment: since users tend to observe only an agent's final response, an attack can conceal its existence by presenting no clue of compromise in the final user facing response while successfully executing harmful actions. This leaves users unaware of the manipulation and likely to accept harmful outcomes as legitimate. We present findings from a large scale public red teaming competition evaluating this dual objective across three agent settings: tool calling, coding, and computer use. The competition attracted 464 participants who submitted 272000 attack attempts against 13 frontier models, yielding 8648 successful attacks across 41 scenarios. All models proved vulnerable, with attack success rates ranging from 0.5% (Claude Opus 4.5) to 8.5% (Gemini 2.5 Pro). We identify universal attack strategies that transfer across 21 of 41 behaviors and multiple model families, suggesting fundamental weaknesses in instruction following architectures.}
+}
+
+
+@article{wybitul2026representations,
+  abbr={Pre-print},
+  author = {Evžen Wybitul and Javier Rando and Florian Tramèr and Stanislav Fort},
+  journal = {Pre-print},
+  title = {Representations of Text and Images Align From Layer One},
+  year = {2026},
+  selected={true},
+  bibtex_show={false},
+  pdf={https://arxiv.org/abs/2601.08017},
+  abstract={We show that for a variety of concepts in adapter-based vision-language models, the representations of their images and their text descriptions are meaningfully aligned from the very first layer. This contradicts the established view that such image-text alignment only appears in late layers. We show this using a new synthesis-based method inspired by DeepDream: given a textual concept such as "Jupiter", we extract its concept vector at a given layer, and then use optimisation to synthesise an image whose representation aligns with that vector. We apply our approach to hundreds of concepts across seven layers in Gemma 3, and find that the synthesised images often depict salient visual features of the targeted textual concepts: for example, already at layer 1, more than 50% of images depict recognisable features of animals, activities, or seasons. Our method thus provides direct, constructive evidence of image-text alignment on a concept-by-concept and layer-by-layer basis. Unlike previous methods for measuring multimodal alignment, our approach is simple, fast, and does not require auxiliary models or datasets. It also offers a new path towards model interpretability, by providing a way to visualise a model's representation space by backtracing through its image processing components.}
+}
+
+
+@article{souly2025poisoning,
+  abbr={Pre-print},
+  author = {Alexandra Souly* and Javier Rando* and Ed Chapman* and Xander Davies* and Burak Hasircioglu and Ezzeldin Shereen and Carlos Mougan and Vasilios Mavroudis and Erik Jones and Chris Hicks and Nicholas Carlini and Yarin Gal and Robert Kirk},
+  journal = {Pre-print},
+  title = {Poisoning Attacks on LLMs Require a Near-constant Number of Poison Samples},
+  year = {2025},
+  selected={true},
+  bibtex_show={false},
+  pdf={https://arxiv.org/abs/2510.07192},
+  blog={https://www.anthropic.com/research/small-samples-poison},
+  comments={Largest pretraining poisoning study to date},
+  abstract={Poisoning attacks can compromise the safety of large language models (LLMs) by injecting malicious documents into their training data. Existing work has studied pretraining poisoning assuming adversaries control a percentage of the training corpus. However, for large models, even small percentages translate to impractically large amounts of data. This work demonstrates for the first time that poisoning attacks instead require a near-constant number of documents regardless of dataset size. We conduct the largest pretraining poisoning experiments to date, pretraining models from 600M to 13B parameters on chinchilla-optimal datasets (6B to 260B tokens). We find that 250 poisoned documents similarly compromise models across all model and dataset sizes, despite the largest models training on more than 20 times more clean data. We also run smaller-scale experiments to ablate factors that could influence attack success, including broader ratios of poisoned to clean data and non-random distributions of poisoned samples. Finally, we demonstrate the same dynamics for poisoning during fine-tuning. Altogether, our results suggest that injecting backdoors through data poisoning may be easier for large models than previously believed as the number of poisons required does not scale up with model size, highlighting the need for more research on defences to mitigate this risk in future models.}
+}
+
+
+@article{apertus2025,
+  abbr={Tech Report},
+  author = {{The Apertus Team}},
+  journal = {Technical Report},
+  title = {Apertus: Democratizing Open and Compliant LLMs for Global Language Environments},
+  year = {2025},
+  selected={false},
+  bibtex_show={false},
+  pdf={https://arxiv.org/abs/2509.14233},
+  website={https://www.swiss-ai.org/apertus},
+  comments={Contributed to pretraining data},
+  abstract={We present Apertus, a fully open suite of large language models (LLMs) designed to address two systemic shortcomings in today's open model ecosystem: data compliance and multilingual representation. Unlike many prior models that release weights without reproducible data pipelines or regard for content-owner rights, Apertus models are pretrained exclusively on openly available data, retroactively respecting robots.txt exclusions and filtering for non-permissive, toxic, and personally identifiable content. To mitigate risks of memorization, we adopt the Goldfish objective during pretraining, strongly suppressing verbatim recall of data while retaining downstream task performance. The Apertus models also expand multilingual coverage, training on 15T tokens from over 1800 languages, with approximately 40% of pretraining data allocated to non-English content. Released at 8B and 70B scales, Apertus approaches state-of-the-art results among fully open models on multilingual benchmarks, rivalling or surpassing open-weight counterparts. Beyond model weights, we release all scientific artifacts from our development cycle with a permissive license, including data preparation scripts, checkpoints, evaluation suites, and training code, enabling transparent audit and extension.}
+}
+
+
 @article{carlini2025autoadvexbench,
   abbr={ICML},
   author = {Nicholas Carlini and Edoardo Debenedetti and Javier Rando and Milad Nasr and Florian Tramèr},
@@ -7,22 +77,22 @@
   selected={true},
   bibtex_show={false},
   pdf={https://arxiv.org/abs/2503.01811},
-  comments={🏆 Spotlight 🏆},
+  comments={🏆 Oral 🏆},
   code={https://github.com/ethz-spylab/AutoAdvExBench},
   abstract={We introduce AutoAdvExBench, a benchmark to evaluate if large language models (LLMs) can autonomously exploit defenses to adversarial examples. Unlike existing security benchmarks that often serve as proxies for real-world tasks, bench directly measures LLMs' success on tasks regularly performed by machine learning security experts. This approach offers a significant advantage: if a LLM could solve the challenges presented in bench, it would immediately present practical utility for adversarial machine learning researchers. We then design a strong agent that is capable of breaking 75% of CTF-like ("homework exercise") adversarial example defenses. However, we show that this agent is only able to succeed on 13% of the real-world defenses in our benchmark, indicating the large gap between difficulty in attacking "real" code, and CTF-like code. In contrast, a stronger LLM that can attack 21% of real defenses only succeeds on 54% of CTF-like defenses.}
 }
 
 
 @article{rando2025adversarial,
-  abbr={Workshop},
+  abbr={ICML},
   author = {Javier Rando* and Jie Zhang* and Nicholas Carlini and Florian Tramèr},
-  journal = {DLSP Workshop @ IEEE Security and Privacy Symposium}, 
-  title = {Adversarial ML Problems Are Getting Harder to Solve and to Evaluate},
-  year = {2025},
+  journal = {ICML Position Paper Track}, 
+  title = {Position: Adversarial ML for LLMs Is Not Making Any Progress},
+  year = {2026},
   selected={true},
   bibtex_show={false},
   pdf={https://arxiv.org/abs/2502.02260},
-  abstract={In the past decade, considerable research effort has been devoted to securing machine learning (ML) models that operate in adversarial settings. Yet, progress has been slow even for simple "toy" problems (e.g., robustness to small adversarial perturbations) and is often hindered by non-rigorous evaluations. Today, adversarial ML research has shifted towards studying larger, general-purpose language models. In this position paper, we argue that the situation is now even worse: in the era of LLMs, the field of adversarial ML studies problems that are (1) less clearly defined, (2) harder to solve, and (3) even more challenging to evaluate. As a result, we caution that yet another decade of work on adversarial ML may fail to produce meaningful progress.}
+  abstract={In the past decade, considerable research effort has been devoted to securing machine learning (ML) models that operate in adversarial settings. Yet, progress has been slow even for simple "toy" problems (e.g., robustness to small adversarial perturbations) and is often hindered by non-rigorous evaluations. Today, adversarial ML research has shifted towards studying larger, general-purpose language models. In this position paper, we argue that the situation is now even worse: in the era of LLMs, the field of adversarial ML studies problems that are (1) less clearly defined, (2) harder to solve, and (3) even more challenging to evaluate. As a result, we caution that yet another decade of work on adversarial ML may be failing to produce meaningful progress.}
 }
 
 
@@ -52,6 +122,18 @@
   abstract={Large language models memorize parts of their training data. Memorizing short snippets and facts is required to answer questions about the world and to be fluent in any language. But models have also been shown to reproduce long verbatim sequences of memorized text when prompted by a motivated adversary. In this work, we investigate an intermediate regime of memorization that we call non-adversarial reproduction, where we quantify the overlap between model responses and pretraining data when responding to natural and benign prompts. For a variety of innocuous prompt categories (e.g., writing a letter or a tutorial), we show that up to 15% of the text output by popular conversational language models overlaps with snippets from the Internet. In worst cases, we find generations where 100% of the content can be found exactly online. For the same tasks, we find that human-written text has far less overlap with Internet data. We further study whether prompting strategies can close this reproduction gap between models and humans. While appropriate prompting can reduce non-adversarial reproduction on average, we find that mitigating worst-case reproduction of training data requires stronger defenses -- even for benign interactions.}
 }
 
+@article{rando2025jailbreak,
+  abbr={ICLR Blog},
+  author = {Javier Rando},
+  journal = {ICLR Blogpost Track},
+  title = {Do Not Write That Jailbreak Paper},
+  year = {2025},
+  selected={false},
+  bibtex_show={false},
+  pdf={https://iclr-blogposts.github.io/2025/blog/do-not-write-jailbreak-papers/},
+  abstract={Jailbreaks are becoming a new ImageNet competition instead of helping us better understand LLM security. This blogpost surveys the jailbreak literature to extract the most important contributions and encourages the community to revisit their choices and focus on research that can uncover new security vulnerabilities.}
+}
+
 @article{chi2024llama,
   abbr={Pre-print},
   author = {Jianfeng Chi and Ujjwal Karn and Hongyuan Zhan and Eric Smith and Javier Rando and Yiming Zhang and Kate Plawiak and Zacharie Delpierre Coudert and Kartikeya Upasani and Mahesh Pasupuleti},
@@ -60,7 +142,7 @@
   year = {2024},
   selected={true},
   bibtex_show={false},
-  pdf={https://arxiv.org/abs/2411.10242},
+  pdf={https://arxiv.org/abs/2411.10414},
   comments={Work done at Meta},
   abstract={We introduce Llama Guard 3 Vision, a multimodal LLM-based safeguard for human-AI conversations that involves image understanding: it can be used to safeguard content for both multimodal LLM inputs (prompt classification) and outputs (response classification). Unlike the previous text-only Llama Guard versions (Inan et al., 2023; Llama Team, 2024b,a), it is specifically designed to support image reasoning use cases and is optimized to detect harmful multimodal (text and image) prompts and text responses to these prompts. Llama Guard 3 Vision is fine-tuned on Llama 3.2-Vision and demonstrates strong performance on the internal benchmarks using the MLCommons taxonomy. We also test its robustness against adversarial attacks. We believe that Llama Guard 3 Vision serves as a good starting point to build more capable and robust content moderation tools for human-AI conversation with multimodal capabilities.}
 }
@@ -146,9 +228,9 @@ doi={10.1038/s41598-024-58087-7},
 pdf={https://www.nature.com/articles/s41598-024-58087-7}
 }
 
-@article{rando2024competition, 
+@article{rando2024backdoorcompetition,
   abbr={Pre-print},
-  title={Competition Report: Finding Universal Jailbreak Backdoors in Aligned LLMs}, 
+  title={Competition Report: Finding Universal Jailbreak Backdoors in Aligned LLMs},
   author = {Javier Rando and Francesco Croce and Krystof Mitka and Stepan Shabalin and Maksym Andriushchenko and Nicolas Flammarion and Florian Tramèr},
   year={2024},
   website={https://github.com/ethz-spylab/rlhf_trojan_competition},

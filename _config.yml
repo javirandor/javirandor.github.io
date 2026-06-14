@@ -7,7 +7,7 @@ first_name: Javier
 middle_name:
 last_name: Rando
 email: javier.rando@ai.ethz.ch
-description: Javier Rando is a PhD student at ETH Zurich. His research focuses on the safety and security of real-world AI systems.
+description: Javier Rando is a Member of Technical Staff at Anthropic, working on the Safeguards team. His research focuses on the safety and security of real-world AI systems.
 footer_text: >
   Awesome theme from <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 keywords: javier rando, javier, rando, artificial intelligence, ai safety, security, privacy, research  # add your own keywords or leave empty
@@ -354,7 +354,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    true  # enables google analytics
+enable_google_analytics:    false  # enables google analytics
 enable_cronitor_analytics: false  # enables cronitor RUM analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification

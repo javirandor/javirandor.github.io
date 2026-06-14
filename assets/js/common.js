@@ -26,12 +26,10 @@ $(document).ready(function() {
   cssLink.rel   = "stylesheet";
   cssLink.type  = "text/css";
 
+  // Default to light mode unless the visitor has explicitly toggled a theme.
   let theme = localStorage.getItem("theme");
   if (theme == null || theme == "null") {
-    const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      theme = "dark";
-    }
+    theme = "light";
   }
 
   $('.jupyter-notebook-iframe-container iframe').each(function() {
